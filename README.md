@@ -1,5 +1,9 @@
 # order-service
 
+A standalone Java 17 order service with guarded order-creation paths and regression tests. Its source is part of the four-repository AI repair bot demonstration.
+
+**Part of the [Microservice AI Repair Bot](https://github.com/Rkb301/microservice-ai-repair-bot) portfolio:** The orchestrator diagnoses error logs, prepares approval-gated repair plans and demonstrates fixes across user, order and payment services. It runs in deterministic local mode by default; actual external integrations require explicit configuration and authorization.
+
 A standalone Java 17 + Maven demo service with guarded order creation. It listens on port `8082` and uses only JDK HTTP server APIs at runtime.
 
 ## Build and run
